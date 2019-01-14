@@ -1,0 +1,112 @@
+*{
+	margin:0;
+	padding:0;
+}
+.cc{
+	width: 99%;
+	height: 80px;
+	border:2px solid #e0a800;
+}
+.cc img{
+	display: block;
+	margin: 10px auto;
+}
+#bander{
+	width: 100%;
+	height: 800px;
+	position: relative;
+	background-image: url("../img/p4-bg.jpg");
+	background-position-y: -180px;
+}
+#banderText{
+	width: 100%;
+	height: 800px;
+	background-image:linear-gradient(70deg,rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.3) 40%,transparent 50%);
+	position: relative;
+}
+#banderText p{
+	font-family: 华文行楷;
+	font-size: 1.5rem;
+	color: #fff;
+	width: 600px;
+	line-height: 50px;
+}
+#banderText p.logo_w{
+	font-size: 3rem;
+}
+#bander .regC{
+	width:350px;
+	height: 400px;
+	position: absolute;
+	top: 50px;
+	right:80px;
+	background-color: #fff;
+	border:2px solid transparent;
+	transition: 1s;
+	z-index: 999;
+	box-shadow:1px 1px 100px 1px #000000;
+	font-size:16px;
+	color: #000000;
+	font-family: 宋体;
+	border-radius:10px ;
+}
+#bander .regC p input{
+	border-radius: 3px;
+	border:1px solid #ff6735;
+
+}
+#bander .regC h4{
+	text-align: center;
+	font-size: 27px;
+	margin-top: 50px;
+}
+#bander .regC p{
+	margin-top: 20px;
+}
+#bander .regC p input{
+	width: 200px;
+	height: 30px;
+}
+#bander .regC p.password{
+	margin-left: 32px;
+}
+#bander .regC p.email{
+	margin-left: 32px;
+}
+#bander .regC p.uname{
+	margin-left: 16px;
+}
+#bander .regC p .submit{
+	background-color: #ff6735;
+}
+#bander .regC p.submit{
+	text-align: center;
+}
+
+#bander .regC:hover{
+	border:2px solid #ff6735;
+}
+
+#banderT,#banderT1,#banderT2,#banderT3,#banderT4{
+	opacity:0;
+	transition:1s;
+	position: absolute;
+}
+#banderT{
+	top: 75px;
+	left: 60px;
+}
+#banderText #banderT1{
+	top: 240px;
+	left: 60px;
+	width: 650px;
+}
+#banderText  #banderT2{
+	top: 550px;
+	left: 60px;
+	width: 650px;
+}
+#banderT4{
+	top:780px;
+	left:60px;
+}

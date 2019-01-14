@@ -1,0 +1,61 @@
+/* 顶部导航*/
+.header_nav{
+	width:1200px;
+	height:60px;
+	margin:0 auto;
+}
+header div ul li a{
+	display:inline-block;
+	height: 30px;
+	line-height: 30px;
+	border:1px solid #ff6735;/*#43CD80;*/
+	background:#FFE4B5;
+	border-radius: 5px;
+}
+
+.nav_box span{
+	float:left;
+	margin-top:10px;
+}
+/* 导航 */
+.header_nav .nav_box{
+	float:left;
+	line-height:60px;
+}
+/* 导航logo */
+.header_nav .nav_box li a>img{
+	position:relative;
+	top:7px;
+}
+.header_nav .nav_box li{
+	float:left;
+	font-size:16px;
+	margin-right:30px;
+
+} 
+.header_nav  a{
+	color:#684029;
+
+}
+.header_nav a:hover{
+	/*color:#BB9772;*/
+	color:#000;
+}
+.header_nav ul li:hover img{
+	margin-top:21px;
+}
+/* 顶部导航右侧：定位、用户 */
+.header_nav .nav_right{
+	float:right;
+	line-height:60px;
+	font-size:15px;
+}
+.nav_right .nav_city{
+	margin-right:5px;
+}
+.nav_right .nav_city,.nav_login{
+	margin-left:50px;
+}
+.nav_right .nav_login:hover,.nav_right .nav_reg:hover{
+	color:#BB9772;
+}

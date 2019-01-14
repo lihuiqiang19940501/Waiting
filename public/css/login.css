@@ -1,0 +1,122 @@
+body,div,p,ul,li,table,dl,dt,tr,td,h1,h2,h3,h4,h5{
+  margin:0;
+  padding:0;
+}
+a{
+  text-decoration:none;
+}
+a:hover{
+  color:#666;
+  text-decoration:none;
+}
+ul,li{
+  list-style:none;
+}
+.header{
+  background-color:#ececec;
+}
+.nav{
+background-color:#ffffff;
+height:70px;
+position:relative;
+}
+.nav>a{
+ background:#f25618;
+  height:70px;
+  width:180px;
+  position:absolute;
+  margin-left:90px;
+}
+.nav>a>img{
+ padding:14px 47px;
+}
+.nav>ul{
+position:absolute;
+margin-left:900px;
+}
+.nav>ul>li{
+ float:left;
+  margin-left:20px;
+ font-size:17px;
+ line-height:70px;
+
+}
+.nav>b{
+ margin:0 23px;
+ font-size:12px;
+ color:#dcdcdc;
+ vertical-align:top;
+}
+.section{
+ background-image:url("../img/bg1.png");
+ height:799px;
+ width:100%;
+ clear:both;
+ border:1px solid transparent;
+}
+.section>.login-wrap{
+border:1px solid black;
+background:translate;
+height:402px;
+width:700px;
+margin:190px 950px;
+position:relative;
+}
+.section>.login-wrap>form>.left{
+ width:350px;
+ height:400px;
+}
+.section>.login-wrap>form>.left>a>img{
+ width:350px;
+ height:400px;
+}
+.section>.login-wrap>form>.right{
+width:347px;
+height:400px;
+position:relative;
+background:white;
+float:right;
+margin-top:-400px;
+}
+.section>.login-wrap>form>.right>img{
+   margin:3px 90px;
+}
+.section>.login-wrap>form>.right>.input-wrap{
+ margin:2px 20px;
+ font-size:15px;
+}
+.section>.login-wrap>form>.right>.input-wrap>input{
+-webkit-appearance:textfield;
+ margin:10px 0;
+ width:260px;
+ padding:5px 0px;
+ border:none;
+ border-bottom:1px solid #dcdcdc; 
+}
+.section>.login-wrap>form>.right>.feature-wrap{
+  margin:15px 30px;
+}
+.section>.login-wrap>form>.right>.feature-wrap>a{
+ padding:0px 60px;
+}
+.section>.login-wrap>form>.right>.submit{
+  cursor:pointer;
+  margin:8px 12px;
+  font-size:20px;
+  background-color:#f39801;
+  border:none;
+  border-radius:6px;
+  color:#fff;
+  width:300px;
+  height:50px;
+}
+.section>.login-wrap>form>.right>.regiser{
+ margin:17px 30px;
+ color:#555555;
+ text-align:center;
+}
+.section>.login-wrap>form>.right>.regiser>p>a{
+margin:0px;
+color:#f39801;
+padding:0 5px;
+}

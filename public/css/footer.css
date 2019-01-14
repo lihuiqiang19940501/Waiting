@@ -1,0 +1,19 @@
+.footer_navigat{
+    width:100%;
+    height: 150px;
+    background: #333;
+    margin: 0 auto;
+    text-align: center;
+    padding-top:20px;
+}
+.footer_navigat a,.footer_navigat b{
+    margin: 0 25px;
+    color:#fff;
+}
+.footer_statement,.copyright{
+	color:#9a9a9a;
+    margin-top:20px;
+}
+
+
+
